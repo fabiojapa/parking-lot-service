@@ -16,7 +16,7 @@ import java.math.BigDecimal
 import java.time.LocalDateTime
 
 @RestController
-@RequestMapping("/ticket")
+@RequestMapping("/tickets")
 class TicketController {
     @PostMapping
     fun create(ticket: Ticket): ResponseEntity<Ticket> {
