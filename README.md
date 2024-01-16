@@ -16,5 +16,15 @@ git clone https://github.com/fabiojapa/parking-lot-service.git
 ## Requirements
 Kotlin
 
+## Usage
+1. Run the app
+```bash
+./mvnw spring-boot:run
+```
+2. Make a simple request
+```bash
+curl localhost:8080/tickets/1
+```
+
 ## Contributing
 Guidelines for contributing to the project, including coding standards, pull request process, etc.
